@@ -1,0 +1,32 @@
+
+
+.barra{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right,blue, red, green, black, blue);
+    background-size: 200%; 
+    border-radius: 20px;
+    animation: bart 10s linear infinite;
+}
+
+@keyframes bart {
+    from{
+        background-position: 400%;
+    }
+    to{
+        background-position: 0%;
+    }
+}
+.efecto1{
+    animation: desaparecido 10s linear infinite;
+}
+@keyframes desaparecido {
+    0%,100%{
+        
+        font-size: 10px;
+    }
+    50%{
+        
+        font-size: 30px;
+    }
+}
